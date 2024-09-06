@@ -80,6 +80,8 @@ public final class KRProgressHUD {
         /// Default duration to show HUD.
         public var duration = Double(1.0)
 
+        public var myname = "Pankaj"
+        
         @available(*, deprecated, message: "Use activityIndicatorColors")
         public var activityIndicatorStyle = KRActivityIndicatorViewStyle.gradationColor(head: .black, tail: .lightGray) {
             didSet { activityIndicatorColors = [activityIndicatorStyle.headColor, activityIndicatorStyle.tailColor] }
